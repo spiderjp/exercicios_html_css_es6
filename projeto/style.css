@@ -1,0 +1,279 @@
+body,html {
+    background-color: rgb(95, 93, 93);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    height: 0px;
+}
+
+.cabeca {
+    height: 150px;
+    margin-bottom: 50px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.remendo6 {
+    width: 300px;
+    height: 150px;
+    color: black;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.remendo6 p {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20pt;
+    color: rgb(230, 230, 0);
+}
+
+.remendo6 img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.remendo7 {
+    width: 500px;
+    height: 50px;
+    margin-left: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    font-size: 10pt;
+}
+
+.cor {
+    width: 80px;
+    height: 40px;
+    padding: 20px;
+}
+
+.cor:hover {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+main {
+    width: 1400px;
+    height: 1180px;
+    margin: auto;
+    display: flex;
+    background-color: white;
+}
+
+
+.container1 {
+    width: 300px;
+    height:700px;
+    padding: 25px;
+}
+
+.nos {
+    width: 300px;
+    height: 183px;
+    text-align: justify;
+}
+
+.categorias {
+    width: 300px;
+    height: 183px;
+}
+
+.posts {
+    width: 300px;
+    height: 500px;
+}
+
+.titulo1 {
+    border-bottom: solid 4px black;
+}
+
+.titulo2 {
+    border-bottom: solid 4px black;
+}
+
+li {
+    padding: 5px;
+    border-bottom: dashed black 1px;
+}
+
+.titulo3 {
+    border-bottom: solid 4px black;
+}
+
+.conteudo5 {
+    width: 300px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    font-size: 10pt;
+    margin-top: 25px;
+}
+
+.conteudo5 figure {
+    width: 72px;
+    height: 60px;
+    border: dashed 1px black;
+    margin-top: 1px;
+}
+
+.conteudo5 img {
+    margin-left: 4px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.remendo3 {
+    width: 200px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+}
+.remendo3 p {
+    margin-top: 22px;
+    font-style: italic;
+    color: teal;
+}
+
+.remendo4 {
+    width: 300px;
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+}
+
+.container2 {
+    height: 1250px;
+    width: 1000px;
+    margin-left:50px;
+    padding: 25px;
+}
+
+.remendo1 {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 550px;
+    border-bottom:3px black solid;
+    margin-bottom: 0px;
+}
+
+.remendo2 {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 550px;
+    border-bottom:3px black solid;
+}
+
+.conteudo1 {
+    width: 430px;
+    height: 530px;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 18pt;
+}
+
+.formatacao1 {
+    width: 300px;
+    font-style: italic;
+    color: teal;
+}
+
+.container2 p {
+    text-align: justify;
+}
+
+.figure_conteudo {
+    width: 428px;
+    height: 160px;
+    border: dashed 1px black;
+    margin: 0px;
+}
+
+.figure_conteudo img {
+    width: 415px;
+    height: 150px;
+    margin: 5px;
+    margin-left: 6px;
+    
+}
+
+.saiba_mais {
+    border: solid 1px white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.conteudo2 {
+    width: 430px;
+    height: 530px;
+    margin-right:20px;
+}
+
+.conteudo3 {
+    width: 430px;
+    height: 530px;
+    margin-right:20px;
+    margin-left: 20px;
+}
+
+.conteudo4 {
+    width: 430px;
+    height: 530px;
+    margin-right:20px;
+}
+
+.cabecalho {
+    height: 180px;
+    background-color: rgb(53, 53, 53);
+}
+
+.conteudo6 {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 200px;
+    margin:auto ;
+    text-align: justify;
+    color: white;
+}
+
+.titulo4 {
+    border-bottom: 3px white solid;
+    width: 350px;
+}
+.remendo5 {
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
