@@ -1,0 +1,104 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+p, span{
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 40%;
+    position: relative;
+}
+
+
+.flex{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flexbox;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: center;
+    -webkit-align-items: center;
+}
+
+.parag{
+    position: relative;
+    top: 40px;
+}
+
+img{
+    width: 200px;
+    height: 50px;
+}
+
+.sections{
+    display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    position: relative;
+    left: 16%;
+}
+
+.pl01_art01,
+.pl02_art01,
+.pl03_art01 {
+    background-color: gray;
+    width: 180px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0.1em 0.2em 0.1em black, -1em 0em 0.4em black;
+}
+
+.pl01_art02,
+.pl02_art02,
+.pl03_art02{
+    background-color: red;
+    width: 180px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0.3em 0.1em 0.2em 0.2em black;
+}
+
+.ate_idade,
+.ate_quant,
+.ate_pessoas{
+    font-size: 8pt;
+    position: relative;
+    bottom: 120px;
+}
+
+.pl01_art03,
+.pl02_art03,
+.pl03_art03{
+    background-color: black;
+    width: 600px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0.7em 0.3em 0.1em 0.1em black;
+    box-shadow: 0.3em 0.1em 0.2em 0.2em black;
+}
+
+
+.meses{
+    font-size: 5pt;
+}
