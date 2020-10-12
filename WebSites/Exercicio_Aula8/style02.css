@@ -1,0 +1,106 @@
+@media screen and (max-width: 780px){
+    
+    body{
+        margin: 0px auto;
+        padding: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    div#principal{
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(#6495ED, #000);
+    }
+
+    
+    .titulo{
+            margin-left: 10px;
+    }
+
+
+    #lado_esq{
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        position: relative;
+        margin-top: 20%;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+
+    #lado_dir{
+        margin: auto;
+        display: block;
+        font-size: 35px;
+        width: 90%;
+        border-left: none;
+    }
+
+    #big_icone{
+        width: 50%;
+    }
+
+    .letter_spacing{
+        margin-left: none;
+        word-spacing: 35px;
+    }
+
+    .first_border{
+        border-top: 1px solid white;
+        width: 95%;
+    }
+
+    .second_border{
+        border-top: 1px solid white;
+        width: 95%;
+    }
+
+    .number_diferent{
+        padding-left: 40px;
+    }
+
+    #sky{
+        position: relative;
+        top: 40px;
+        right: 110px;     
+        font-size: 20px;   
+    }
+
+    .temp_day{
+        display: none;
+    }
+
+    section.other_days{
+       display: none;
+    }
+
+    .days_780{
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 80px;
+        height: 130px;
+        display: inline-block;
+        position: relative;
+        left: 0px;
+        padding: 10px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        background-image: linear-gradient(#000000dc, rgb(214, 169, 19));
+        margin-top: 15px;
+    }
+
+    .days_780 div{
+        padding: 2px;
+        margin-left: 4px;
+    }
+
+    .days_780 img{
+        position: relative;
+        top: 5px;
+    }
+
+}

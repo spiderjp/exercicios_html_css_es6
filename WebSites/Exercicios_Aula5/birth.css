@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    background-color: snow;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+div{
+    position: relative;
+    left: 15%;
+    margin-left: 244px;
+    border-radius: 10px 10px 0px 0px;
+    margin-right: 650px;
+    padding-bottom: 1px;
+    background-color: violet;
+}
+
+figure{
+    margin-left: 50px;    
+}
+
+table{
+    position: relative;
+    right: 420px;
+    border: solid;
+    margin-left: auto;
+    background-color: rgba(68, 134, 255, 0.89);
+    height: 400px;
+    width: 30px;
+    border-radius: 0 px 0px 10px 10px;
+}
+
+td{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border-left: rgba(204, 95, 255, 0.897) solid;
+    border-bottom: rgba(204, 95, 255, 0.897) solid;
+    border-top: rgba(204, 95, 255, 0.897) solid;
+}
+
+.column_right{
+    border-right: rgba(204, 95, 255, 0.897) solid;
+}
+
+.sabado{
+    color: rgb(10, 10, 202);
+}
+
+.domingo{
+    color: red;
+}
+
+.dias{
+    background-color: rgba(100, 149, 255, 0.986);
+}
+ 
+
+a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size:30px;
+}
+
+a.titulo{
+    color: black;
+}
+
+.alinhar_imgs{
+    display: block;
+}
+
+td:nth-child(2){
+    background-color: rgba(111, 97, 235, 0.911);
+}
+
+td:nth-child(4){
+    background-color: rgba(111, 97, 235, 0.911);
+}
+
+td:nth-child(6){
+    background-color: rgba(111, 97, 235, 0.911);
+}
+
+table:nth-of-type(2){
+    background-color: gray;
+}
+
+td[class*="other_month"]{
+    background-color: gray;
+    color: rgba(220,220,220,0.3);
+}
+
+td[class="last_month"]{
+    background:  rgba(111, 97, 235, 0.5);
+}

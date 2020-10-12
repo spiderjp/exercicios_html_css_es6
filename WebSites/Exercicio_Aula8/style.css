@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+hr{
+    display: none;
+}
+
+
+.titulo{
+    margin-left: 10px;
+}
+
+
+div#principal{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-image: linear-gradient(#000000dc, rgb(214, 169, 19));   
+}
+
+img{
+    display:inline-block;
+}
+
+
+/*Local onde está as informações principais e mais importantes do dia*/
+
+.day{
+    display: inline-block;
+}
+
+/*Como a section principal possui '2 blocos' divididos em por uma borda, separamos em lado esquerdo e direito*/
+
+#lado_esq{
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+
+#lado_dir{
+    margin-bottom: 50px;
+    border-left: 2px solid black;
+    padding-left: 40px;
+    margin-left: 100px;
+}
+
+/*Essa class é referente ao número em graus da temperatura e a classificação do dia, que precisam ser maiores do que os outros*/
+
+.number_diferent{
+    display: inline-block;
+    line-height: 10px;
+    font-size: 50px;
+    margin-top: 5px;
+    clear: left;
+}
+
+/*É o ícone maior que indica como está o céu, do lado do .number_diferent*/
+
+#big_icone{
+    position: relative;
+    bottom: 70px;
+    float: left;
+    width: 160px;
+
+}
+
+/*Utilizando Flexbox com o lado direito da seção principal*/
+
+.lado_dir{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.lado_dir div{
+    justify-content: space-between;
+}
+
+/*É o espaçamento entre as palavras na caixa que indica o dia atual, temperatura, vento, chuva*/
+
+.letter_spacing{
+    word-spacing: 5px;
+}
+
+/*É a section que estará armazenando as temperaturas e os horários do dia desde às 3:00 até 22:00*/
+
+.temp_day{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+/*É a div para cada horário*/
+
+.time{
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    border: white;
+    border-radius: 20px;
+    padding: 5px;
+    background-image: linear-gradient(#DCDCDC, #483D8B);
+}
+
+
+.other_days{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.other_days p{
+    border-top: 1px solid white;
+    word-spacing: 115px;
+}
+
+
+/*Essa class é referente as informações de outros dias, como temperatura máxima e mínima, como eu ainda não sei como nivelar palavras com palavras, tive que usar*/
+
+.inf_otherdays{
+    margin-left: 160px;
+}
+
+section span img{
+    position: relative;
+    top: 30px;
+}
+
+.days_780{
+    display: none;
+}

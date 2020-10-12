@@ -1,0 +1,58 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 40pt;
+    margin: auto;
+    margin-bottom: 10pt;
+    color: purple;
+    font-size: 40pt;
+    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+}
+
+.websites_list{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    position: relative;
+    top: 100pt;
+    background-image: linear-gradient(#a92cf1, #b451c1);
+    border: 10px black;
+    border-style: double;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(158,54,158,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(158,54,158,1);
+    box-shadow: 10px 10px 5px 0px rgba(158,54,158,1);
+    border-radius: 10px;
+}
+
+ul > li{
+    position: relative;
+    left: 20%;
+    list-style: none;
+    list-style-type: none;
+    font-size: 14pt;
+    padding: 4pt;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    font-size: 24pt;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    font-size: 16pt;
+    padding: 1%;
+    color: cornflowerblue;
+}
+
+a:active{
+    color: darkblue;
+}

@@ -1,0 +1,61 @@
+body{
+    background-image: url("imagens/fundo.jpg");
+    background-repeat: no-repeat;
+}
+
+#formulario{
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    background-color: snow;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+span{
+    font-size: 20px;
+    margin-left: 20%;
+    padding-right: 10px;
+}
+
+.campo{
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+    padding: 4px;
+}
+
+div input{
+    align-items: center;
+    margin-left: auto;
+    width: 40%;
+}
+
+#logar{
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px 80px 10px 80px;
+    background-color: orange;
+}
+
+#logar:hover{
+    width: 50%;
+}
+
+#senha{
+    display: inline;
+    margin-left: 300px;
+    font-size:15px;
+    color: orange;
+}
