@@ -1,0 +1,28 @@
+body{
+    margin: auto;
+    font-family: Verdana;
+    font-size: 18pt;
+}
+
+#container{
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+    border: 22px double red;
+}
+
+form > input{
+    font-size: 18pt;
+    border: 1px solid black;
+    display: inline;
+}
+
+input.campos{
+
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}

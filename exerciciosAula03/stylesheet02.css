@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+    font-family: Verdana;
+    font-size: 18pt;
+}
+#container{
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+    border: 22px double red;
+}
+
+div.meunome {
+    background-color: black;
+    border-radius: 130px;
+    width: 500px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
